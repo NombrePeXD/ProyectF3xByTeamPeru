@@ -1,1 +1,111 @@
-e
+local gui = Instance.new("ScreenGui")
+gui.Name = "patrickGui"
+gui.Parent = game.CoreGui
+
+--screengui = gui
+
+
+-- Si no quieres mas textos puedes dejarlo en blanco ejmplo " "
+
+--CRACKEADO POR G00GLEKIDD
+
+
+local fr = Instance.new("Frame")
+fr.Size = UDim2.new(0, 283, 0, 100)
+fr.Position = UDim2.new(0.1, 0, 0.75, 0)
+fr.BackgroundColor3 = Color3.new(1, 1, 1)
+fr.BorderColor3 = Color3.new(0, 0, 0)
+fr.BorderSizePixel = 1
+fr.Active = true
+fr.Draggable = no
+fr.Parent = gui
+
+
+   setclipboard("f3x gui messsge : This gui was maked by teamperu and g00glekidd")
+
+	local ImageLabel = Instance.new("ImageLabel")
+	ImageLabel.Parent = gui
+	ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ImageLabel.BackgroundTransparency = 1 --  si quieres que tu decal tenga fondo pon el "1" en "0"
+	ImageLabel.BorderColor3 = Color3.fromRGB(27, 27, 27)
+	ImageLabel.BorderSizePixel = 2
+	ImageLabel.Position = UDim2.new(0.004,  0, 0.75, 0)
+	ImageLabel.Size = UDim2.new(0, 99, 0, 99.9)
+	ImageLabel.Image = "rbxassetid://15928893796"
+
+
+local txt = Instance.new("TextLabel")
+txt.Size = UDim2.new(0.3, 0, 0.2, 0)
+txt.Position = UDim2.new(0.35, 0, 0.07, 0)
+txt.BackgroundColor3 = Color3.new(0, 0, 0)
+txt.BackgroundTransparency = 1
+txt.BorderColor3 = Color3.new(0, 0, 0)
+txt.BorderSizePixel = 1
+txt.Text = "We have replicated ur client to server"
+txt.TextSize = 15
+txt.TextColor3 = Color3.new(0, 0, 0)
+txt.Font = Enum.Font.Code
+txt.Parent = fr
+
+
+local txt2 = Instance.new("TextLabel")
+txt2.Size = UDim2.new(0.3, 0, 0.2, 0)
+txt2.Position = UDim2.new(0.23, 0, 0.25, 0)
+txt2.BackgroundColor3 = Color3.new(0, 0, 0)
+txt2.BackgroundTransparency = 1
+txt2.BorderColor3 = Color3.new(0, 0, 0)
+txt2.BorderSizePixel = 1
+txt2.Text = "force fe bypass on f3x games"
+txt2.TextSize = 15
+txt2.TextColor3 = Color3.new(0,0,0)
+txt2.Font = Enum.Font.Code
+txt2.Parent = fr
+
+
+
+local txt3 = Instance.new("TextLabel")
+txt3.Size = UDim2.new(0.3, 0, 0.2, 0)
+txt3.Position = UDim2.new(0.09, 0, 0.41,0)
+txt3.BackgroundColor3 = Color3.new(0, 0, 0)
+txt3.BackgroundTransparency = 1
+txt3.BorderColor3 = Color3.new(0, 0, 0)
+txt3.BorderSizePixel = 1
+txt3.Text = "Made by g00glekidd"
+txt3.TextSize = 15
+txt3.TextColor3 = Color3.new(0,0,0)
+txt3.Font = Enum.Font.Code
+txt3.Parent = fr
+
+
+
+local txt4 = Instance.new("TextLabel")
+txt4.Size = UDim2.new(0.3, 0, 0.2, 0)
+txt4.Position = UDim2.new(0.2,  0, 0.6, 0)
+txt4.BackgroundColor3 = Color3.new(0, 0, 0)
+txt4.BackgroundTransparency = 20
+txt4.BorderColor3 = Color3.new(0, 0, 0)
+txt4.BorderSizePixel = 1
+txt4.Text = "[discord : yir2007.com"
+txt4.TextSize = 15
+txt4.TextColor3 = Color3.new(0, 0, 0)
+txt4.Font = Enum.Font.Code
+txt4.Parent = fr
+
+
+local hide = Instance.new("TextButton")
+hide.Size = UDim2.new(0.1, 0, 0.2, 0)
+hide.Position = UDim2.new(0.99999, 0, 0.0, 0)
+hide.BackgroundColor3 = Color3.new(0, 0, 0)
+hide.BackgroundTransparency = 0.7
+hide.BorderColor3 = Color3.new(0, 0, 0)
+hide.BorderSizePixel = 1
+hide.Text = "X"
+hide.TextSize = 15
+hide.TextColor3 = Color3.new(255, 255, 255)
+hide.Font = Enum.Font.Code
+hide.Parent = fr
+hide.MouseButton1Click:Connect(function()
+
+   fr.Visible = false
+   ImageLabel.Visible = false
+end)
