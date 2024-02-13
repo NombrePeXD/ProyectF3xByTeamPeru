@@ -5,9 +5,6 @@ gui.Parent = game.CoreGui
 --screengui = gui
 
 
--- Si no quieres mas textos puedes dejarlo en blanco ejmplo " "
-
---CRACKEADO POR G00GLEKIDD
 
 
 local fr = Instance.new("Frame")
